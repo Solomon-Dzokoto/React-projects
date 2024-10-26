@@ -1,0 +1,33 @@
+.portfolio__container >h2{
+text-align: center;
+}
+.portfolio__container >p{
+  margin-top: 1rem;
+text-align: center;
+}
+
+ul{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.side{
+    &:hover{
+        transform: translateY(0);
+        box-shadow: 0 0 .5rem var(--color-primary);
+    }
+    
+}
+.cards__details{
+    margin-top: 3rem;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap:5rem 1rem;
+   
+}
+
+.cards__items{
+    display: grid;
+    gap: 1rem;
+}

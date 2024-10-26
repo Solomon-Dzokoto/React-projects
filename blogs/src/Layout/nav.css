@@ -1,0 +1,26 @@
+header{
+    position: relative;
+}
+.nav__items{
+ display: none;
+}
+.visible{
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    top: 4.5rem;
+    background-color: var(--primary);
+    li{
+        padding: .5rem 7rem .5rem 1rem;
+        &:hover{
+            background-color: blue;
+        }
+    }
+}
+
+@media screen and (min-width:800px) {
+    .nav__items{
+        display: flex;
+    }
+}

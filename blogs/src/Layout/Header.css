@@ -1,0 +1,36 @@
+.menu{
+    display: grid;
+    gap: .2rem;
+    cursor: pointer;
+    .item{
+        width: 2rem;
+        height: .15rem;
+        background-color: var(--cyan-50);
+        margin-block: 1px;
+    }
+}
+
+.close{
+    .item{
+        width: 2rem;
+        height: .15rem;
+        background-color: var(--cyan-50);
+        margin-block: 1px;
+        transition: transform .3s ease;
+    }
+    .item1{
+      transform: rotate(45deg);
+    }
+    .item2{
+       display: none;
+    }
+    .item3{
+        transform: rotate(-45deg);
+    }
+}
+
+@media screen and (min-width:800px) {
+    .menu{
+        display: none;
+    }
+}

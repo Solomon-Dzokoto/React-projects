@@ -1,0 +1,14 @@
+.contact__container{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+.btttn{
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    transition: all .5s ease;
+    &:hover{
+        transform: translateY(0);
+    }
+}

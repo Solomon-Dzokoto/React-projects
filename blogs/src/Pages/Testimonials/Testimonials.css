@@ -1,0 +1,10 @@
+.thumb{
+    width: 5rem;
+    border-radius: 100%;
+}
+.img{
+    width: 60vw;
+    height: 60vh;
+    margin: 3rem auto;
+    border-radius: 5rem;
+}

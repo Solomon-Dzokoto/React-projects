@@ -1,0 +1,35 @@
+/* section{
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;   
+    }
+} */
+.contact__container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+.bn{
+    padding: 1.5rem;
+    font-size: 3rem;
+    background-color: var(--primary);
+    font-weight: 550;
+    border-radius: .5rem;
+    color: var(--cyan-50);
+    border: .2rem solid var(--primary);
+    &:hover{
+      background-color: transparent;
+      color: var(--primary);
+      border-color: var(--primary);
+      transform: translateY(-.5rem);
+      transition:var(--transition);
+    }
+}
+textarea{
+   caret-color: var(--primary);
+   color: var(--cyan-50);
+   background-color: transparent;
+}
